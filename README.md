@@ -87,5 +87,5 @@ rag_agent_app/
 │   ├── session_manager.py  # Session & chat history handling
 │   ├── ui_components.py    # Reusable Streamlit UI components
 │
-│── .env                    # Environment variables (not committed)
-│── README.md               # Project documentation
+│── .env                    
+│── README.md               
