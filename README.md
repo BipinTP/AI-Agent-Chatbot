@@ -91,11 +91,14 @@ rag_agent_app/
 │── README.md               # Project documentation
 
 ```
+---
+
 ## Environment Variables (Required API Keys Only)
-# Required API Keys for the RAG Application
+
 
 - PINECONE_API_KEY=your_pinecone_key
 - GROQ_API_KEY=your_groq_key
 - TAVILY_API_KEY=your_tavily_key
+
 
 
