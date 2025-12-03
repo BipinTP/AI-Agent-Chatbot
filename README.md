@@ -93,12 +93,13 @@ rag_agent_app/
 ```
 ---
 
-## 🔐 Environment Variables (Required API Keys Only)
+## 🔐 Environment Variables (Required API Keys)
 
 
-- PINECONE_API_KEY=your_pinecone_key
-- GROQ_API_KEY=your_groq_key
-- TAVILY_API_KEY=your_tavily_key
+- PINECONE_API_KEY=pinecone_key
+- GROQ_API_KEY=groq_key
+- TAVILY_API_KEY=tavily_key
+
 
 
 
