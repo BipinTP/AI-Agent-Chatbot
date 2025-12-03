@@ -90,29 +90,4 @@ rag_agent_app/
 │── .env                    # Environment variables (not committed)
 │── README.md               # Project documentation
 
-🛠️ Installation & Setup
 
-1️⃣ Clone the repo
-git clone https://github.com/your-username/ai-agent-chatbot
-cd ai-agent-chatbot
-
-2️⃣ Create virtual environment
-python -m venv venv
-source venv/bin/activate      # Linux/Mac
-venv\Scripts\activate         # Windows
-
-3️⃣ Install dependencies
-pip install -r requirements.txt
-
-4️⃣ Add your API keys to .env
-PINECONE_API_KEY=your_key
-GROQ_API_KEY=your_key
-TAVILY_API_KEY=your_key
-
-5️⃣ Run backend (FastAPI)
-cd backend
-uvicorn main:app --reload
-
-6️⃣ Run frontend (Streamlit)
-cd frontend
-streamlit run app.py
